@@ -1,0 +1,161 @@
+ 
+ a
+ {
+    text-decoration: none;
+ }
+
+ li
+ {
+    list-style: none;
+ }
+
+ .row 
+ {
+  left: 0;
+  margin: 0;
+  width: 100%;
+ }
+ .main-home 
+ {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Vazirmatn", sans-serif;
+
+ }
+
+ *
+ {
+  font-family: "Vazirmatn";
+ }
+
+ /* nav-links */
+.nav-links 
+{
+background-color: #fff;
+color: rgb(145, 145, 145);
+padding: 0 5%;
+
+
+}
+
+.nav-list
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-list li 
+{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+ 
+ /* header-Site */
+
+ 
+ .header-Site
+ {
+    background-color: #fff;
+    text-align: end;
+    padding:1px 15% ;
+    font-family: "Vazirmatn";
+ }
+
+ .header-Site h5
+ {
+  font-weight: 700;
+ }
+ /* nav-content */
+
+ .nav-content
+ {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3a73c0;
+ }
+
+
+ .logo-location 
+ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+ }
+ .logo-location span
+ {
+  font-size: 1.3rem;
+  font-weight: 500;
+  opacity: .8;
+ }
+
+ /* notfication-login-Btn */
+
+ .notfication-login-Btn 
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .btns .btn-login 
+ {
+    padding:5px 20px ;
+    background-color:#3062ad;
+    border: none;
+    border-radius: .438rem;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 600;
+ }
+ 
+ #collapseOne button 
+ {
+  background-color: #c7d6e9;
+   transition: all .2s;
+  color: #6593c9;
+  font-size: 1.2rem;
+  font-weight: 600;
+ }
+
+ #collapseOne button:hover
+{
+  /* opacity: 1; */
+  background-color: #8eb9f1;
+ color: #fff; 
+}
+
+.logos ,.categories 
+{
+  border: 2px solid #e5e7eb;
+  padding: 10px;
+  margin-left: 2px;
+  transition: all .1s;
+  cursor: pointer;
+}
+
+.logos:hover ,.categories:hover
+{
+
+  border: 2px solid rgba(59,130,246,.5);
+}
+ 
+ .categories 
+ {
+  /* opacity: 0.2; */
+  font-size: 3rem;
+  text-align: center;
+ }
+ .categories-icon
+ {
+  transition: all .1s;
+
+  color: #b0b0b0;
+ }
+ .categories:hover .categories-icon  
+  {
+    color: #1073c0;
+    
+  }

@@ -1,0 +1,423 @@
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #f7f7fd;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #d82b34;
+    border-radius: 25px;
+}
+
+
+
+ 
+  /************* from size from 1350px to 1200px  *********/
+@media screen and (min-width:1200px) and (max-width:1350px)
+
+{
+/* nav-links */
+.nav-links 
+{
+padding: 0 1%;
+}
+
+.nav-list li 
+{
+ font-size: 1.2rem;
+}
+
+
+
+}
+
+
+  /************* from size from 1200px to 992px  *********/
+  @media screen and (min-width:992px) and (max-width:1200px)
+
+  {
+ /* nav-links */
+.nav-links 
+{
+padding: 0;
+}
+
+.nav-list li 
+{
+ font-size: 1.1rem;
+}
+
+
+  
+  }
+  
+
+
+  
+  /************* from size from 992px to 786px  *********/
+  @media screen and (min-width:768px) and (max-width:992px)
+
+  {
+
+     /* nav-links */
+.nav-links 
+{
+padding: 0;
+}
+
+.nav-list li 
+{
+ font-size: .8rem;
+}
+   
+  /* salary-contact */
+.salary-contact
+{
+    margin-top: 10px;
+ padding: 20px;
+ }
+
+.adv-public h5 
+{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.adv-public li
+{
+   font-size: 1.2rem;
+  font-weight: 500;
+
+}
+
+/* advertisement-owner-items */
+
+.advertisement-owner h4
+{
+font-size: 1.8rem;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+.advertisement-owner-items 
+{
+    justify-content: space-around;
+}
+
+.owner-data 
+{
+    text-align: center;
+    padding: 30px;
+}
+.owner-data h5 
+{
+    font-size: 1.6rem;
+}
+
+.owner-data p 
+{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+/* .location-map */
+
+.location-map h4
+{
+ font-size: 2rem;
+ font-weight: 700;
+}
+.location-map p 
+{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+  }
+  
+   
+  /************* from size from  786px to 600 *********/
+  @media screen and (min-width:600px)and (max-width:768px) 
+
+  {
+
+    /* nav-content */
+
+.nav-content
+{
+ 
+   justify-content: space-between;
+}
+
+.logo-location img 
+{
+    width: 80%;
+}
+ 
+.logo-location span
+{
+ font-size: 1rem;
+ font-weight: 500;
+ opacity: .8;
+}
+
+/* notfication-login-Btn */
+
+ 
+.btns .btn-login 
+{
+   padding:5px 5px ;
+   font-size: 1rem;
+   font-weight: 600;
+}
+ 
+.btns .btn-add-title
+{
+   padding:5px 10px ;
+   font-size: 1rem;
+
+}
+
+
+
+     /* nav-links */
+.nav-links 
+{
+padding: 0;
+}
+
+.nav-list li 
+{
+ font-size: .7rem;
+}
+/* sub-advertisement */
+.sub-advertisement span
+{   
+    font-size: .8rem;
+    display: block;
+    margin-top: 10px;
+    font-weight: 800;
+}
+  /* salary-contact */
+.salary-contact
+{
+    margin-top: 10px;
+ padding: 20px;
+ }
+
+.adv-public h5 
+{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.adv-public li
+{
+   font-size: 1.2rem;
+  font-weight: 500;
+
+}
+
+/* advertisement-owner-items */
+
+.advertisement-owner h4
+{
+font-size: 1.8rem;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+.advertisement-owner-items 
+{
+    justify-content: space-around;
+}
+
+.owner-data 
+{
+    text-align: center;
+    padding: 30px;
+}
+.owner-data h5 
+{
+    font-size: 1.6rem;
+}
+
+.owner-data p 
+{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+/* .location-map */
+
+.location-map h4
+{
+ font-size: 2rem;
+ font-weight: 700;
+}
+.location-map p 
+{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+/* Similar-ads */
+.Similar-ads-imges 
+{
+margin-top: 25px;
+}
+  }
+  
+
+    /************* from size from  786px to 600 *********/
+    @media screen and (max-width:600px) 
+
+    {
+  
+      /* nav-content */
+  
+  .nav-content
+  {
+   
+     display: block;
+  }
+  .logo-location 
+  {
+    justify-content: space-around;
+  }
+  .logo-location img 
+  {
+      width: 100%;
+  }
+   
+  .logo-location span
+  {
+   font-size: 1.2rem;
+   font-weight: 700;
+   opacity: .8;
+  }
+  
+  /* notfication-login-Btn */
+  
+  .notfication-login-Btn 
+{
+   margin-top: 12px;
+   justify-content: center;
+   align-items: center;
+}
+
+   .btns .btn-login 
+  {
+     padding:5px 20px ;
+     font-size: 1.1rem;
+     font-weight: 700;
+  }
+   
+  .btns .btn-add-title
+  {
+     padding:5px 20px ;
+     font-size: 1.1rem;
+  
+  }
+  
+  
+    /* nav-links */
+  .nav-links 
+  {
+    display: none;
+  /* padding: 0; */
+  }
+  .line-sm-screen
+  {
+    display: block;
+  }
+  
+  /* sub-advertisement */
+  .sub-advertisement span
+  {   
+      font-size: .8rem;
+      display: block;
+      margin-top: 10px;
+      font-weight: 800;
+  }
+    /* salary-contact */
+  .salary-contact
+  {
+      margin-top: 10px;
+   padding: 20px;
+   }
+  
+  .adv-public h5 
+  {
+      font-size: 1.7rem;
+      font-weight: 700;
+  }
+  .adv-public li
+  {
+     font-size: 1.2rem;
+    font-weight: 500;
+  
+  }
+  
+  /* advertisement-owner-items */
+  
+  .advertisement-owner h4
+  {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  }
+  
+  .advertisement-owner-items 
+  {
+       display: block;
+  }
+  
+  /* .owner-data  */
+
+  .owner-data 
+  {
+      text-align: center;
+      padding: 30px;
+   }
+  .owner-data h5 
+  {
+      font-size: 1.4rem;
+  }
+  
+  .owner-data p 
+  {
+      font-size: 1.2rem;
+      font-weight: 500;
+  }
+  
+  .image-advertisement-owner 
+  {
+     text-align: center;
+  }
+  .image-advertisement-owner img
+  {
+    width: 30%;
+  }
+
+  .advertisement-owner button
+{
+    margin-top: 5px;
+ 
+}
+  /* .location-map */
+  
+  .location-map h4
+  {
+   font-size: 2rem;
+   font-weight: 700;
+  }
+  .location-map p 
+  {
+      font-size: 1.4rem;
+      font-weight: 500;
+  }
+
+
+  /* Similar-ads */
+.Similar-ads-imges 
+{
+margin-top: 25px;
+}
+    }
+    
